@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function NavBar () {
   return (
-    <header>
+    <header id='navbar'>
   <Link to="/">Home</Link>
   <Link to="/Projects">Projects</Link>
   <Link to="/Resume">Resume</Link>
