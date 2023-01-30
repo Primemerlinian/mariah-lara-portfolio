@@ -1,6 +1,6 @@
 function Home() {
   return (
-      <h1>WELCOME!</h1>
+      <h1>Mariah Lara</h1>
   )
 }
 
