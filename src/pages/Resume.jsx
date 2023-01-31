@@ -1,6 +1,13 @@
 function Resume() {
   return (
-      <h1>Resume</h1>
+    <>
+    <img src="https://i.imgur.com/5FP5L9m.png" class="resumeimg" alt=""/>
+
+      <h1>Mariah Lara Resume</h1>
+      <p> <a href='https://drive.google.com/file/d/1thB1z1RqZlqUCRwfPLDtfNUhJgSN7beQ/view?usp=sharing' download>download my resume</a></p>
+
+
+      </>
   )
 }
 
