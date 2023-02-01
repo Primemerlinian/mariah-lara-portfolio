@@ -45,7 +45,7 @@ h2 {
 }
 @media (min-width: 480px) {
   .waterfallphoto {
-    border-radius: 50%;
+    border-radius: 20%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -60,8 +60,8 @@ h2 {
 
 
 .project-container {
-  --b: 3px;   /* border thickness */
-  --s: .45em; /* size of the corner */
+  --b: 1.5px;   /* border thickness */
+  --s: 5em; /* size of the corner */
   --color: #373B44;
   
   padding: calc(.5em + var(--s)) calc(.9em + var(--s));
@@ -107,4 +107,27 @@ h2 {
 .projectphoto {
   max-width: 100%;
   max-height: 500px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.hero {
+  height: 600px;
+}
+
+.contact{
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
 }
