@@ -1,7 +1,7 @@
 import ProjectPreview from "./ProjectPreview";
 import { projects } from "../data/projects";
 
-const ProjectLists = (props) => {
+const ProjectsLists = (props) => {
   return (
     <div classname="project-container">
           <ProjectPreview projects={projects}/>
