@@ -108,7 +108,13 @@ h2 {
 
 .projectphoto {
   max-width: 100%;
-  max-height: 500px;
+  height: auto;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .projectphoto {
+    max-width: 50%;
+  }
 }
 
 footer {
