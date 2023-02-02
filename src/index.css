@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   height: 100vh;
-  background-color: #f4f4f4;
+  background-color: #fff;
   
 }
 
@@ -21,8 +21,8 @@ code {
 
 .navbar {
   border: solid;
-  color: #a09a95;
-  background-color: #d0d0be;
+  color: #c6c3d9;
+  background-color: #cfcfe0;
   justify-content: space-between;
   padding: 10px 50px 20px;
   width: 100%;
@@ -38,14 +38,18 @@ a {
   font-size: 17px;
   width: 15%; 
   text-align: center;
+  font-family: 'Antic Didone', serif;
+
 }
 
 h2 {
   text-align: center;
+  font-family: 'Prompt', sans-serif;
+
+
 }
 @media (min-width: 480px) {
   .waterfallphoto {
-    border-radius: 20%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -126,8 +130,159 @@ footer {
 }
 h1 {
   text-align: center;
+  font-family: 'Arima Madurai', cursive;
+
 }
 
 h3 {
   text-align: center;
+  font-family: 'Prompt', sans-serif;
 }
+
+@media (min-width: 480px) {
+  .castlephoto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 50px;
+  width: 465px;
+  height: 500px;
+  float: auto;
+
+}
+}
+
+
+
+.header2 a {
+  background-color: #dbcde8;
+  border: 1px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.header2 a:hover {
+  background-color: #fff;
+}
+
+.header2 a:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .header2 a {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.contact-container2 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.resumedownload {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.downloadmyresumebutton {
+  display: flex;
+  text-align: center;
+  color: blue;
+  align-items: center;
+  padding-left: 90px;
+}
+
+
+@media (min-width: 480px) {
+.resumeimg {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+}
+
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+}
+
+.downloadmyresumebutton {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 500px;
+  min-width: 300px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.downloadmyresumebutton:active,
+.downloadmyresumebutton:hover {
+  outline: 0;
+}
+
+.downloadmyresumebutton span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 500%;
+  height: 500%;
+  transition: 300ms;
+}
+
+.downloadmyresumebutton:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .downloadmyresumebutton {
+    font-size: 24px;
+    min-width: 300px;
+  }
+}
+
+
+
+
+
