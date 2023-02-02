@@ -9,7 +9,7 @@ export let projects = [
   },
   {
     title: "Beauty",
-    description: "Your new favorite online pet!",
+    description: "Your new favorite online pet! This simulator game allows you to play with your pet and enjoy her favorite activites when you click on the corresponding demand.",
     image: "https://i.imgur.com/SUzNdbn.png",
     repositoryLink: "https://github.com/Primemerlinian/Beauty",
     deploymentLink: "https://beauty-simulator.netlify.app/",
