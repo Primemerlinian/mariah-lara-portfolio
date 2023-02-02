@@ -1,7 +1,7 @@
 export let projects = [
   {
     title: "AskMe Coffee",
-    description: "Input your favorite Coffee!",
+    description: "The AskMe Coffee app stores your favorite coffee combinations and allows you to view your friend's drinks and possibly try them the next time you are in line for coffee.☕️",
     image: "https://i.imgur.com/FUJjW7J.png",
     repositoryLink: "https://github.com/Primemerlinian/AskMeCoffee.git",
     deploymentLink: "https://askmecoffee.fly.dev/",
