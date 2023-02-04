@@ -24,6 +24,7 @@ code {
   color: #c6c3d9;
   background-color: #cfcfe0;
   padding: 15px 55px 25px;
+  flex-direction: row;
   
 }
 
@@ -72,6 +73,8 @@ h2 {
     width: 300px;
     margin-bottom: 25px;
   }
+
+
 }
 
 
@@ -132,9 +135,21 @@ h2 {
   height: auto;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen {
+
   .projectphoto {
     max-width: 100%;
+    justify-content: center;
+  }
+  .project-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 50px;
+    max-width: 200;
   }
 }
 
