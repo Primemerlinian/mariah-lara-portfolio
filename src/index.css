@@ -45,12 +45,12 @@ a {
   .navbar {
     flex-direction: row;
     align-items: center;
-    width: 100%;
+    width: 75%;
   }
   a {
     margin: 10px 0;
     float: none;
-    width: 100%;
+    width: 75%;
     flex-direction: row;
   }
 }
