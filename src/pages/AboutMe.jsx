@@ -1,7 +1,6 @@
 function AboutMe() {
-
   return (
-      <> 
+      <div className="bgimg"> 
       <h1>About Me!</h1>
       <img src="https://i.imgur.com/vYUd0Z2.jpg" width="375" height="600" className="castlephoto" alt="myphoto"/>
       <h2> My Techstack!</h2>
@@ -20,7 +19,7 @@ function AboutMe() {
 </h2>
 <h2>I am a big fan of exploring flea markets as they offer an element of surprise and the potential to discover hidden treasures. In the same vein, I also relish the opportunity to fully immerse myself in coding, taking the time to thoroughly understand each language and deepen my knowledge.</h2>
 
-      </>
+      </div>
 
 
   )

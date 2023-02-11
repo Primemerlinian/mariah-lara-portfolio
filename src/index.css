@@ -25,7 +25,6 @@ code {
   background-color: #cfcfe0;
   padding: 15px 55px 25px;
   flex-direction: row;
-  
 }
 
 a {
@@ -41,7 +40,6 @@ a {
   display: block;
 }
 
-
 @media only screen and (max-device-width: 480px) {
   .navbar {
     flex-direction: row;
@@ -55,7 +53,6 @@ a {
     flex-direction: row;
   }
 }
-
 
 h2 {
   text-align: center;
@@ -73,13 +70,7 @@ h2 {
     width: 300px;
     margin-bottom: 25px;
   }
-
-
 }
-
-
-
-
 
 .project-container {
   --b: 1.5px; /* border thickness */
@@ -136,7 +127,6 @@ h2 {
 }
 
 @media only screen {
-
   .projectphoto {
     max-width: 100%;
     justify-content: center;
@@ -232,11 +222,8 @@ h3 {
   gap: 30px;
   flex-direction: column;
 }
-
-.contact-container2 {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
+.contacttext {
+  background-color: white;
 }
 
 .resumedownload {
@@ -257,13 +244,11 @@ h3 {
   .resumeimg {
     justify-content: center;
     max-width: 100%;
-
   }
 }
 .resumeimg {
-    max-width: 100%;
-    justify-content: center;
-
+  max-width: 100%;
+  justify-content: center;
 }
 
 .resume-container {
@@ -378,4 +363,9 @@ h3 {
   display: block;
   margin: 0 auto;
   text-align: center;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1584531979583-18c5c4b25efc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+  background-size: cover;
 }
