@@ -253,12 +253,19 @@ h3 {
   padding-left: 90px;
 }
 
-@media (min-width: 480px) {
+@media only screen {
   .resumeimg {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
   }
+}
+.resumeimg {
+    max-width: 100%;
+    justify-content: center;
+
 }
 
 .resume-container {
