@@ -373,3 +373,9 @@ h3 {
   cursor: pointer;
   font-family: inherit;
 }
+
+.techstack {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
