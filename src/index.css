@@ -26,7 +26,7 @@ header.header2 {
   display: flex;
   border: solid;
   color: #c6c3d9;
-  background-color: #cfcfe0;
+  background-color: rgb(217, 205, 230);
   padding: 15px 5px 25px;
   flex-direction: row;
   width: 100%;
@@ -206,7 +206,7 @@ h3 {
   }
 }
 .header2 a {
-  background-color: #dbcde8;
+  background-color: rgb(219, 206, 251);
   border: 1px solid #422800;
   border-radius: 30px;
   box-shadow: #422800 4px 4px 0 0;

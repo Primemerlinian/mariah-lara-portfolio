@@ -9,7 +9,7 @@ function AboutMe() {
         className="castlephoto"
         alt="myphoto"
       />
-      <h2> My Techstack!</h2>
+      <h2> My languages and tools!</h2>
       <div class="techstack">
         <img
           src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original-wordmark.svg"
@@ -71,6 +71,20 @@ function AboutMe() {
           src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/vscode/vscode-original-wordmark.svg"
           title="VSC"
           alt="vsc"
+          width="100"
+          height="100"
+        />
+        <img
+          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
+          title="TS"
+          alt="ts"
+          width="100"
+          height="100"
+        />
+        <img
+          src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Postman.svg"
+          title="PM"
+          alt="pm"
           width="100"
           height="100"
         />
