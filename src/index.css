@@ -79,8 +79,22 @@ h2 {
     height: 400px;
     width: 300px;
     margin-bottom: 25px;
+    border-radius: 5px;
   }
 }
+
+img.waterfallphoto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 50px;
+    float: auto;
+    height: 400px;
+    width: 300px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+  }
 
 .project-container {
   --b: 1.5px; /* border thickness */

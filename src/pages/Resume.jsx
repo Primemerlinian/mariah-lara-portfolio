@@ -7,7 +7,7 @@ function Resume() {
           {" "}
           Like what you see?
           <a
-            href="https://drive.google.com/file/d/1thB1z1RqZlqUCRwfPLDtfNUhJgSN7beQ/view?usp=sharing"
+            href="https://drive.google.com/file/d/1INENN576GTF0GXQ9j0gWOir_mnZ5UyFE/view?usp=sharing"
             download
           >
             <span className="downloadmyresumebutton">Download my resume.</span>
