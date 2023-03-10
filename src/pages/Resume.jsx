@@ -1,23 +1,23 @@
 function Resume() {
   return (
     <>
-      <h1>My Resume</h1>
+      <h1> Click the icon to download my resume</h1>
       <div className="resume-container">
         <p className="resumedownload">
           {" "}
-          Like what you see?
           <a
             href="https://drive.google.com/file/d/1INENN576GTF0GXQ9j0gWOir_mnZ5UyFE/view?usp=sharing"
             download
           >
-            <span className="downloadmyresumebutton">Download my resume.</span>
-          </a>
-        </p>
+            <span className="downloadmyresumebutton">
         <img
-          src="https://i.imgur.com/5FP5L9m.png"
+          src="https://www.svgrepo.com/show/266221/resume-portfolio.svg"
           className="resumeimg"
           alt=""
-        />
+          />
+          </span>
+          </a>
+        </p>
       </div>
     </>
   );
