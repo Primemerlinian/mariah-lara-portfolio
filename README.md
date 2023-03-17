@@ -1,4 +1,3 @@
 # Hello Welcome to my Portfolio
 
-This live portfolio can be found[here](https://mariah-lara-portfolio.netlify.app/).
-cd
+If you're interested in checking out my portfolio, feel free to visit it by clicking [👉🏽Here👈🏽](https://mariah-lara-portfolio.netlify.app/)
