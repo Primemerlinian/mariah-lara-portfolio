@@ -6,7 +6,7 @@ function Resume() {
         <p className="resumedownload">
           {" "}
           <a
-            href="https://drive.google.com/file/d/1INENN576GTF0GXQ9j0gWOir_mnZ5UyFE/view?usp=sharing"
+            href="https://docs.google.com/document/d/1MsdxRnaXlY0byGYJfVuSgYPBcwBIL6ihFefZi0q2pUE/edit?usp=sharing"
             download
           >
             <span className="downloadmyresumebutton">
