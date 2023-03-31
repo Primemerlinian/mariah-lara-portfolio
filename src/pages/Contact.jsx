@@ -17,12 +17,6 @@ function Contact() {
         >
           Visit My LinkedIn!
         </a>
-        <a className="contacttext" href="tel:8634476309">
-          Call me!
-        </a>
-        <a className="contacttext" href="sms:8634476309">
-          Text me!
-        </a>
       </div>
     </div>
   );
