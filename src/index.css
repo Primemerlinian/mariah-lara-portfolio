@@ -375,3 +375,22 @@ body {
   background-image: url("https://images.pexels.com/photos/7130555/pexels-photo-7130555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
   background-size: cover;
 }
+
+header.header2 {
+  display: flex;
+  border: solid 5px;
+  color: #c6c3d9;
+  background-color: rgb(217, 205, 230);
+  padding: 15px 5px 25px;
+  flex-direction: row;
+  width: 100%;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  header.header2 {
+    flex-direction: column;
+    width: 150%;
+    margin-right: 0;
+  }
+}
