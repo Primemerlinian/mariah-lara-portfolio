@@ -281,8 +281,8 @@ h3 {
   flex-direction: column;
   height: 100%;
   align-items: center;
-  padding-top: 200px;
-  padding-bottom: 160px;
+  padding-top: 90px;
+  padding-bottom: 10px;
 }
 
 
@@ -392,5 +392,16 @@ header.header2 {
     flex-direction: column;
     width: 150%;
     margin-right: 0;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .downloadmyresumebutton {
+    max-width: 80%;
+  }
+  .downloadmyresumebutton img {
+    width: 100%;
+    height: auto;
   }
 }
