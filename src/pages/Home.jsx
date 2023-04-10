@@ -12,7 +12,7 @@ function Home() {
         A full-stack Software Engineer with an insatiable curiosity that fuels
         my ambition to learn more. I have extensive experience in developing
         dynamic and interactive web applications using technologies such as
-        HTML, CSS, JavaScript, React, Mongoose, MongoDB, Node, and Google OAuth.
+        HTML, CSS, JavaScript, React, TypeScript, Mongoose, MongoDB, Node, and Google OAuth.
       </h2>
       <h2>
         I take great pleasure in building and developing software, even if the
