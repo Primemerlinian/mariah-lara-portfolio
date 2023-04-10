@@ -1,5 +1,13 @@
 export let projects = [
   {
+    title: "PlanPro",
+    description: "PlanPro offers a holistic view of an individual's work and personal life, eliminating the need for constant calendar switching. ",
+    image: "https://i.imgur.com/0zkeWOm.png",
+    repositoryLink: "https://github.com/Primemerlinian/PlanPro-front-end",
+    deploymentLink: "https://planpro.netlify.app/",
+    tech: "HTML5, CSS3, JavaScript",
+  },
+  {
     title: "AskMe Coffee",
     description:
       "The AskMe Coffee app stores your favorite coffee combinations and allows you to view your friend's drinks and possibly try them the next time you are in line for coffee.☕️",
