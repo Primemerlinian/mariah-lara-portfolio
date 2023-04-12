@@ -3,7 +3,7 @@ import { projects } from "../data/projects";
 const ProjectPreview = (props) => {
   return (
     <>
-      <div className="project-container">
+          <div className="project-container">
         <p className="project"> {projects[0].title}</p>
         <p>{projects[0].description}</p>
         <img
@@ -13,14 +13,14 @@ const ProjectPreview = (props) => {
         ></img>
         <p>{projects[0].tech}</p>
         <a
-          href="https://github.com/Primemerlinian/PlanPro-front-end"
+          href="https://github.com/Primemerlinian/memescore-front"
           className="buttonlink2"
         >
           {" "}
           Github{" "}
         </a>
         <a
-          href="https://planpro.netlify.app/"
+          href="https://memescore.netlify.app/"
           className="buttonlink3"
         >
           {" "}
@@ -37,13 +37,16 @@ const ProjectPreview = (props) => {
         ></img>
         <p>{projects[1].tech}</p>
         <a
-          href="https://github.com/Primemerlinian/AskMeCoffee.git"
+          href="https://github.com/Primemerlinian/PlanPro-front-end"
           className="buttonlink2"
         >
           {" "}
           Github{" "}
         </a>
-        <a href="https://askmecoffee.fly.dev/" className="buttonlink3">
+        <a
+          href="https://planpro.netlify.app/"
+          className="buttonlink3"
+        >
           {" "}
           Deployed app{" "}
         </a>
@@ -58,6 +61,27 @@ const ProjectPreview = (props) => {
         ></img>
         <p>{projects[2].tech}</p>
         <a
+          href="https://github.com/Primemerlinian/AskMeCoffee.git"
+          className="buttonlink2"
+        >
+          {" "}
+          Github{" "}
+        </a>
+        <a href="https://askmecoffee.fly.dev/" className="buttonlink3">
+          {" "}
+          Deployed app{" "}
+        </a>
+      </div>
+      <div className="project-container">
+        <p className="project"> {projects[3].title}</p>
+        <p>{projects[3].description}</p>
+        <img
+          src={projects[3].image}
+          alt={props.title}
+          className="projectphoto"
+        ></img>
+        <p>{projects[3].tech}</p>
+        <a
           href="https://github.com/Primemerlinian/Beauty"
           className="buttonlink2"
         >
@@ -71,14 +95,14 @@ const ProjectPreview = (props) => {
       </div>
 
       <div className="project-container">
-        <p className="project"> {projects[3].title}</p>
-        <p>{projects[3].description}</p>
+        <p className="project"> {projects[4].title}</p>
+        <p>{projects[4].description}</p>
         <img
-          src={projects[3].image}
+          src={projects[4].image}
           alt={props.title}
           className="projectphoto"
         ></img>
-        <p>{projects[3].tech}</p>
+        <p>{projects[4].tech}</p>
         <a
           href="https://github.com/Primemerlinian/Connect4"
           className="buttonlink2"
@@ -96,14 +120,14 @@ const ProjectPreview = (props) => {
       </div>
 
       <div className="project-container">
-        <p className="project"> {projects[4].title}</p>
-        <p>{projects[4].description}</p>
+        <p className="project"> {projects[5].title}</p>
+        <p>{projects[5].description}</p>
         <img
-          src={projects[4].image}
+          src={projects[5].image}
           alt={props.title}
           className="projectphoto"
         ></img>
-        <p>{projects[4].tech}</p>
+        <p>{projects[5].tech}</p>
         <a
           href="https://github.com/Primemerlinian/ttt-weekend.git"
           className="buttonlink2"
