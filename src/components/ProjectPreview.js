@@ -3,7 +3,7 @@ import { projects } from "../data/projects";
 const ProjectPreview = (props) => {
   return (
     <>
-     <div className="project-container">
+      <div className="project-container">
         <p className="project"> {projects[0].title}</p>
         <p>{projects[0].description}</p>
         <img

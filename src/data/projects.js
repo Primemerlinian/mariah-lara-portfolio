@@ -1,11 +1,20 @@
 export let projects = [
+  
+  // {
+  //   title: "MemeScore",
+  //   description: "App that allows you to upload and view other humorous images and memes ",
+  //   image: "https://i.imgur.com/o9zcOQS.png",
+  //   repositoryLink: "https://github.com/Primemerlinian/memescore-front",
+  //   deploymentLink: "https://memescore.netlify.app/",
+  //   tech: "HTML5, CSS3, JavaScript, TypeScript, React",
+  // },
   {
     title: "PlanPro",
     description: "PlanPro offers a holistic view of an individual's work and personal life, eliminating the need for constant calendar switching. ",
     image: "https://i.imgur.com/0zkeWOm.png",
     repositoryLink: "https://github.com/Primemerlinian/PlanPro-front-end",
     deploymentLink: "https://planpro.netlify.app/",
-    tech: "HTML5, CSS3, JavaScript",
+    tech: "HTML5, CSS3, JavaScript, React",
   },
   {
     title: "AskMe Coffee",
