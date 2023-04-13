@@ -17,6 +17,12 @@ function Contact() {
         >
           Visit My LinkedIn!
         </a>
+        <a
+          className="contacttext"
+          href="https://www.instagram.com/mariahinthemoment/"
+        >
+          Visit My Instagram!
+        </a>
       </div>
     </div>
   );
